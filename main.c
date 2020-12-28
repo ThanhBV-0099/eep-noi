@@ -106,7 +106,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 	wifi_init();
 	ee_init();
-	ee_commit();
+	//ee_commit();
 	ee_read(1,1,b);
 	State_switch_1=b[0];
   /* USER CODE END 2 */
